@@ -1,0 +1,411 @@
+<!--RENDER: TO GIVE SOMEONE SOMETHING, AS A SERVICE FOR THE PAY-->
+<!DOCTYPE html> <!--This declares the document type and version of HTML being used (HTML5 in this case). It helps the browser understand how to render the page.-->
+<html lang="en"> <!--specifies the language of the document, which is English.-->
+<head>
+    <meta charset="UTF-8"><!--Specifies the character encoding for the HTML document-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Controls the page’s dimensions and scaling, ensuring that it looks good on all devices (responsive design).-->
+    <meta name="keywords" content="Anvesha Jain, portfolio Anvesha Jain, Web Developer, portfolio website, Anvesha Jain website" /> 
+    <!--Contains keywords relevant to the content of the page, which can help with search engine optimization (SEO).-->
+    <meta name="description" content="Welcome to Anvesha's Portfolio. Passionate Web Developer. Tech Ethusiast." />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!--  Links to Font Awesome, a library for adding icons to the webpage. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assests/Images/img-modified.png" type="image/x-png"> <!--AMAN-->
+    <title> Anvesha Jain </title>
+    <!--Links to the EmailJS library, which is used to send emails directly from the browser-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <!--Initializes the EmailJS service with your user ID.-->
+    <script type="text/javascript">
+    (function(){
+    emailjs.init("-L45b_OvcTAJElwgr");
+    })();
+    </script>
+</head>
+<!--Body tag where the content of the webpage goes, Disables the right-click context menu on the page-->
+<body oncontextmenu="return false">
+<!-- navbar starts -->
+<header> <!-- Defines the top section of the webpage, often used for the navigation bar.-->
+        <a href="https://linktr.ee/anvesha_jain" class="logo"> Anvesha Jain</a><!--A clickable logo that links to your Linktree page.-->
+
+        <div id="menu" class="fas fa-bars"></div><!--A hamburger menu icon that appears in responsive views (small screens).-->
+        <nav class="navbar"><!--The main navigation bar containing links to different sections of the webpage.-->
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#experience">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+<!-- hero section starts -->
+<section class="home" id="home"> <!--Defines a section of the webpage. This one is the "Home" section, identified by id="home".-->
+    <div id="particles-js"></div><!--A container for a JavaScript-based particle effect background, if you have such a script running.-->
+    <div class="content"><!--A container for the hero text and buttons-->
+    <h3>Hey,<br/> I'm Anvesha <span>Jain</span></h3><!--Heading-->
+    <p>i am a <span class="typing-text"></span></p><!--remaining paragraph with a typing effect-->
+    <a href="https://linktr.ee/anvesha_jain" class="btn"><span>Visit all Links</span>
+      <i class="fas fa-arrow-circle-up"></i>
+    </a>
+    <div class="socials"> <!--A container for social media icons-->
+        <ul class="social-icons">
+          <li><a class="linkedin" href="https://www.linkedin.com/in/anvesha-jain-25413321b/" target="_blank"><i class=" fa-linkedin"></i></a></li> 
+            <li><a class="github" href="https://github.com/anveshajain19" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a class="Discord" href="https://discordapp.com/users/anvesha_jain" target="_blank"><i class="fab fa-discord"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image"> <!--Contains the profile image with a tilt effect applied-->
+    <img draggable="false" class="tilt" src="./assests/Images/anvesha_sq.jpg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <div class="row"><!--A flexbox container that holds the image and content side by side.-->
+    <div class="image"> <!--The container for the image on the left side of the section.-->
+        <img draggable="false" class="" src="./assests/Images/standingg.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Anvesha</h3>
+        <span class="tag">Passionate Developer | AI-ML Enthusiast </span>
+        <p>currently pursuing B.Tech in Computer Science and Engineering at Shri Govindram Seksaria Institute of Technology and Science, Indore (M.P).
+          <br>
+          I am deeply interested in implementing programs in real life problems. I am one among the 250 girls selected out of 28000+ applicants for the Cohort-4 of the Women Engineers Program by Google and TalentSprint.
+          <br>
+          I have been working on Programming Languages Such As Python, C/C++, as well as Data Structures and Algorithms (DSA). Apart from all my technical skills, I am creative, a quick learner and have also developed skills like leadership and management by working as a core tech team member in Algobytes community. <br>
+          <br>
+          I work well in a team, and am a great problem solver and a  decision maker. <br>
+         </p>
+        <div class="box-container"> <!--A flexbox container that holds additional personal details.-->
+            <div class="box"><!--contains personal information such as age, gender, language, etc.-->
+              <p><span> age: </span> 21</p>
+              <p><span> college : </span> Shri Govindram Seksaria Institute of Technology and Science, Indore (M.P)</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> anvesha19jain@gmail.com</p>
+              <p><span> place : </span> Indore, India </p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="./assests/Resume/0801CS211021_BT_CS_Anvesha_Jain.pdf" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+<!-- skills section starts -->
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> My<span> Skills</span></h2>
+  <div class="container">
+        <div class="row" id="skillsContainer">
+    </div>
+</div>
+</section>
+<!-- skills section ends -->
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute"></p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <a href="http://www.sgsitsindore.in">
+        <img draggable="false" src="./assests/Images/sgsits.png" alt="">
+        
+        </div>
+        <div class="content">
+        <h3>B.Tech | Computer Science and Engineering</h3>
+        <p>Shri GS Institute of Technology and Science, Indore (M.P) </p>
+        <h4>2021-2025</h4>
+      </a> 
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <a href="">
+      <img draggable="false" src="./assests/Images/group-image1.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>High School | Mathematics | PCM </h3>
+      <p>Luv Kush Vidhya Vihaar Hr. Sec. School | MP Board</p>
+    </a>
+      <h4>2019-2021</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <a href="">
+      <img draggable="false" src="./assests/Images/school.png" alt="">
+      </div>
+      <div class="content">
+      <h3>Middle School </h3>
+      <p>Agrawal Public School | CBSE</p>
+    </a>
+      <h4>2017-2019</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i>My <span>Projects</span></h2>
+
+  <div class="box-container">
+    
+    <div class="box tilt">
+      <img draggable="false" src="./assests/Images/hospital.png" alt="" />
+      <div class="content">
+        <div class="tag">
+          <h3>HealthSync (Hospital Appointment Management System)</h3>
+        </div>
+        <div class="desc">
+          <p>Tech Stack: Next.js, Strapi, Agile methodologies, Design Thinking
+            <br>
+            -Developed an system that streamlined appointment scheduling with iterative enhancements.</p>
+          <div class="btns">
+            <a href="https://github.com/anveshajain19/HealthSync" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="box tilt">
+      <img draggable="false" src="./assests/Images/ml_mini.png" alt="" />
+      <div class="content">
+        <div class="tag">
+          <h3>Celestial Body Classification using Machine Learning</h3>
+        </div>
+        <div class="desc">
+          <p>Tech Stack: Python, XGBoost, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+            <br>
+            -Implemented an XGBoost classification model for data analysis, visualization, and model saving.</p>
+          <div class="btns">
+            <a href="https://github.com/anveshajain19/ML_MINI_PROJECT" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assests/Images/go_cusine.png" alt="" />
+      <div class="content">
+        <div class="tag">
+          <h3>GoCuisine</h3>
+        </div>
+        <div class="desc">
+          <p>Tech Stack: React, Node.js, Express, MongoDB
+            <br>
+            -Engineered a food delivery platform with secure user authentication, cart management, and an intuitive admin interface.</p>
+          <div class="btns">
+            <a href="https://github.com/anveshajain19/GoCusine" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assests/Images/mario.png" alt="" />
+      <div class="content">
+        <div class="tag">
+          <h3>Hill Climb Racing Hand Gesture Controlled</h3>
+        </div>
+        <div class="desc">
+          <p>Tech Stack: Python
+            <br>
+            -Controlled Hill Climb Racing game using hand gestures.</p>
+          <div class="btns">
+            <a href="https://github.com/anveshajain19/Hand-Gesture-Volume-Control" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt">
+      <img draggable="false" src="./assests/Images/sptfy.png" alt="" />
+      <div class="content">
+        <div class="tag">
+          <h3>Spotify Clone</h3>
+        </div>
+        <div class="desc">
+          <p>Tech Stack: HTML, CSS
+            <br>
+            -Developed a clone of Spotify with essential features.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  </div>
+</section>
+
+<!-- work project section ends -->
+
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Achievements</h2>
+
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>GOOGLE</h2>
+        </div>
+        <div class="desc">
+          <h3>Women Engineer Program</h3>
+          <p>April 2022 - April 2024</p>
+          <p>Selected as the top 1% of scholars among 28,000+ participants and received a ₹1 lakh scholarship.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>GOLDMAN SACHS</h2>
+        </div>
+        <div class="desc">
+          <h3>Women’s Possibility Summit Winner</h3>
+          <p>Feb 2023</p>
+          <p>The only candidate from our college who advanced to the final round. Participated in discussions on diversity and inclusion in finance and networked with industry leaders.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>IET INDIA</h2>
+        </div>
+        <div class="desc">
+          <h3>Scholarship Awards</h3>
+          <p>Sep 2022</p>
+          <p>Ranked in the top 30 out of 30,000+ applicants at the national level. Qualified for the regional presentation round (held in Mumbai at The Xavier Institute).</p>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>HPAIR</h2>
+        </div>
+        <div class="desc">
+          <h3>Conference Delegate & Scholar</
+             <h3>Conference Delegate & Scholar</h3>
+          <p>Aug 2021</p>
+          <p>Selected for Harvard Project for Asian and International Relations (HPAIR) conference on international relations and business, among 1,000+ participants.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- experience section ends -->
+\<!-- Contact Section Starts -->
+<section id="contact" style="padding: 50px 0; background-color: #f4f4f4; text-align: center;">
+  <div class="container" style="max-width: 640px; margin: 0 auto;">
+    <h2 style="font-size: 2em; margin-bottom: 20px;">Contact Me</h2>
+    <p style="font-size: 1.2em; margin-bottom: 30px;">If you have any questions or just want to say hello, please fill out the form below!</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmDKau9g5mkhQhTMixUbkGLUB02kVne0lCD3GGtnaYV0q_VQ/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</section>
+<!-- Contact Section Ends -->
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Anvesha's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials for further info. <br/></p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          
+          <p> <i class="fas fa-envelope"></i>anvesha19jain@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Indore, India</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/anvesha-jain-25413321b/" class="fab fa-linkedin" target="_blank"></a>
+              <a href="https://github.com/anveshajain19" class="fab fa-github" target="_blank"></a>
+              <a href="mailto:anvesha19jain@gmail.com" class="fas fa-envelope" target="_blank"></a>
+              
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://linktr.ee/anvesha_jain">Anvesha Jain</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./particles.min.js"></script>
+<script src="./app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>

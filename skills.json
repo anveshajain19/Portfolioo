@@ -1,0 +1,51 @@
+[
+   
+    {
+        "name": "Python",
+        "icon": ""
+    },
+    {
+        "name": "C++",
+        "icon": ""
+    },
+    {
+        "name": "C",
+        "icon": ""
+    },
+    {
+        "name": "Latex",
+        "icon": ""
+    },
+    {
+        "name": "MySQL",
+        "icon": ""
+    },
+    {
+        "name": "HTML",
+        "icon": ""
+    },
+    {
+        "name": "CSS",
+        "icon": ""
+    },
+    {
+        "name": "Git",
+        "icon": ""
+    },
+    {
+        "name": "GitHub",
+        "icon": ""
+    },
+    {
+        "name": "DSA",
+        "icon": ""
+    } ,
+   {
+        "name": "JavaScript",
+        "icon": ""
+    },
+    {
+        "name": "AWS",
+        "icon": ""
+    }    
+]
